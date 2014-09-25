@@ -5,9 +5,6 @@
  */
 package foldersearch;
 
-import java.io.File;
-import java.text.SimpleDateFormat;
-
 /**
  *
  * @author dlwilson
@@ -19,23 +16,8 @@ public class FolderSearch {
      */
     public static void main(String[] args) 
     {
-        String path = "C:\\Pathfinder RPG";
-        String pattern = "MM/dd/yyyy";
-        int d = 0;
-        SimpleDateFormat sdf;
-                
-        File file = new File(path);
-        File[] files = file.listFiles();
-        boolean isDirectory = file.isDirectory();
-        
-        sdf = new SimpleDateFormat("MM/dd/yyyy");
-        
-        for (int i = 0; i < files.length; i++)
-        {
-            System.out.println(files[i] + " " + sdf.format(file.lastModified()));
-        }
-        
-//        System.out.println(file.list());
+       FolderProcessor p = new FolderProcessor("t:/");
+       p.doProcess();
     }
-    
+       
 }

@@ -5,5 +5,9 @@
         <group>
             <file>file:/C:/Users/dlwilson/Documents/NetBeansProjects/FolderSearch/src/foldersearch/FolderSearch.java</file>
         </group>
+        <group name="CrystalWebCommon">
+            <file>file:/C:/Users/dlwilson/Documents/GitHub/FolderSearch1/src/foldersearch/FolderProcessor.java</file>
+            <file>file:/C:/Users/dlwilson/Documents/GitHub/FolderSearch1/src/foldersearch/FolderSearch.java</file>
+        </group>
     </open-files>
 </project-private>
