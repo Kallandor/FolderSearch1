@@ -16,7 +16,7 @@ public class FolderSearch {
      */
     public static void main(String[] args) 
     {
-       FolderProcessor p = new FolderProcessor("t:/");
+       FolderProcessor p = new FolderProcessor("C:\\Pathfinder RPG", 0, "");
        p.doProcess();
     }
        
